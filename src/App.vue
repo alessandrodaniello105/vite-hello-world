@@ -1,15 +1,25 @@
-<script setup>
+<script>
+
   import AppTitle from './components/AppTitle.vue'
-  components:{
-    AppTitle
+
+  export default {
+
+    name: 'App',
+
+    components:{
+      AppTitle
+    }
+
   }
 
 </script>
 
 <template>
+
   <AppTitle />
+
 </template>
 
-<style scoped>
+<style>
 
 </style>
