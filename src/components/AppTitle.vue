@@ -1,22 +1,24 @@
 <script>
 
+// 2. Create AppTitle.Vue, create a string as title, style it and add in template
+
 export default {
 
   name: 'AppTitle',
 
   data(){
     return {
-      titolo: 'La mia prima app con Vite!'
+      title: 'La mia prima app con Vite!'
     }
   }
-  
+
 }
 
 </script>
 
 <template>
 
-  <h1>{{ titolo }}</h1>
+  <h1>{{ title }}</h1>
 
 </template>
 

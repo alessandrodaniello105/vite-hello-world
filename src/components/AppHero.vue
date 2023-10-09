@@ -1,13 +1,19 @@
 <script>
+// Bonus 2. Create AppHero.vue, name it, style it, add img in template
 export default {
+  
   name: 'AppHero'
+
 }
+
 </script>
 
 <template>
 
   <div class="img-box">
-    <img src="../assets/img/jumbotron.png" alt="">
+
+    <img src="../assets/img/jumbotron.png" alt="jumbotron">
+
   </div>
 
 </template>
